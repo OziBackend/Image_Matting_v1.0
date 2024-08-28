@@ -1,3 +1,10 @@
+venv_image_matting
+mobilenetv2_human_seg.ckpt
+modnet_photographic_portrait_matting.ckpt
+foreground
+input
+output
+
 # Temporary directories and files
 *.ckpt
 *.onnx
