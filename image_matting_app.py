@@ -55,3 +55,4 @@ def upload_image():
 
 if __name__ == '__main__':
     app.run(host='172.16.2.46', port=5000, debug=True)
+    # app.run(host='46.250.238.182', port=8008, debug=True)
