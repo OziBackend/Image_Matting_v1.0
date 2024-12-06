@@ -12,7 +12,7 @@ from functions.image_matting import image_matting
 app = Flask(__name__, static_folder='static')
 
 # Configure Flask app
-app.config['SERVER_NAME'] = '172.16.2.46:5000'
+app.config['SERVER_NAME'] = '172.16.0.94:5000'
 app.config['APPLICATION_ROOT'] = '/'
 app.config['PREFERRED_URL_SCHEME'] = 'http'
 
@@ -54,5 +54,5 @@ def upload_image():
     return jsonify(return_data)
 
 if __name__ == '__main__':
-    app.run(host='172.16.2.46', port=5000, debug=True)
+    app.run(host='172.16.0.94', port=5000, debug=True)
     # app.run(host='46.250.238.182', port=8008, debug=True)
